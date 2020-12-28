@@ -30,7 +30,7 @@ export default function Homepage({ latest, versions }: VersionManifest) {
         <div className="rounded-md bg-lime-300 border border-lime-600 py-2 px-4">
           <p className="text-sm font-medium">Public API</p>
           <code className="text-xs">
-            https://minecraft-servers.vercel.app/api/download/1.16.4
+            https://minecraft-servers.vercel.app/api/download/{latest.release}
           </code>
         </div>
       </section>
